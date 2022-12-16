@@ -2,7 +2,7 @@ import cv2
 from random import randrange
 #load pre-trained data
 
-face_trained_data = cv2.CascadeClassifier('data\haarcascade_frontalface_alt.xml') 
+face_trained_data = cv2.CascadeClassifier('C:/Users/shafi/Desktop/Data_Science-AI/AI/data/haarcascade_frontalface_alt.xml') 
 
 #load webcam
 webcam = cv2.VideoCapture(0)
